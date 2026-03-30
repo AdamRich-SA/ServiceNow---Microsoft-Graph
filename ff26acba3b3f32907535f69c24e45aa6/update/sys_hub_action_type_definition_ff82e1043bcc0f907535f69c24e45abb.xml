@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>disable_user</internal_name>
+        <label_cache>[{"name":"{{action.user_id}}","label":"action➛User ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>39a3a5c43bcc0f907535f69c24e45a0e</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Disable User</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:22:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff82e1043bcc0f907535f69c24e45abb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Disable User</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ff82e1043bcc0f907535f69c24e45abb</sys_update_name>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ff82e1043bcc0f907535f69c24e45abb</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>98a325c43bcc0f907535f69c24e45a74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">1ca325c43bcc0f907535f69c24e45a64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ff82e1043bcc0f907535f69c24e45abb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>dca325c43bcc0f907535f69c24e45a74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">40a325c43bcc0f907535f69c24e45a5d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb^id=ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=ff82e1043bcc0f907535f69c24e45abb^sys_idNOT IN40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</action>
+        <cid>21c53328-1105-4321-a23b-45f16fe99da7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:33</sys_created_on>
+        <sys_id>40a3e1c43bcc0f907535f69c24e45afa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:39</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>08a325c43bcc0f907535f69c24e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>0ca325c43bcc0f907535f69c24e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:39</sys_created_on>
+        <sys_id>19a365c43bcc0f907535f69c24e45a92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:39</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>40a325c43bcc0f907535f69c24e45a53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>48a325c43bcc0f907535f69c24e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>4ca325c43bcc0f907535f69c24e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>patch</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>80a325c43bcc0f907535f69c24e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>2bf6247e3b3f32907535f69c24e45a6d</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>84a325c43bcc0f907535f69c24e45a53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>8ca325c43bcc0f907535f69c24e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>c0a325c43bcc0f907535f69c24e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>{
+  "accountEnabled": false
+}</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>40a3e1c43bcc0f907535f69c24e45afa</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>c4a325c43bcc0f907535f69c24e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_40a3e1c43bcc0f907535f69c24e45afa^id=40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_element_mapping action="delete_multiple" query="id=40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>40a325c43bcc0f907535f69c24e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>8ca325c43bcc0f907535f69c24e45a4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>0ca325c43bcc0f907535f69c24e45a4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>4ca325c43bcc0f907535f69c24e45a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>84a325c43bcc0f907535f69c24e45a50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>c4a325c43bcc0f907535f69c24e45a4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>04a325c43bcc0f907535f69c24e45a4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>c0a325c43bcc0f907535f69c24e45a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>08a325c43bcc0f907535f69c24e45a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:39</sys_created_on>
+        <sys_id>55a365c43bcc0f907535f69c24e45a92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:39</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>80a325c43bcc0f907535f69c24e45a4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>v1.0/users/{{action.user_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>40a3e1c43bcc0f907535f69c24e45afa</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>48a325c43bcc0f907535f69c24e45a4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=40a3e1c43bcc0f907535f69c24e45afa^sys_idNOT INc8a325c43bcc0f907535f69c24e45a28"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=f90410a4-a6bb-4753-9668-0cbb0d05d4f4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">40a3e1c43bcc0f907535f69c24e45afa</model>
+        <model_id>40a3e1c43bcc0f907535f69c24e45afa</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_40a3e1c43bcc0f907535f69c24e45afa</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:33</sys_created_on>
+        <sys_id>c8a325c43bcc0f907535f69c24e45a28</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40a3e1c43bcc0f907535f69c24e45afa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_40a3e1c43bcc0f907535f69c24e45afa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:33</sys_created_on>
+        <sys_id>88a325c43bcc0f907535f69c24e45a2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:33</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ff82e1043bcc0f907535f69c24e45abb^sys_idNOT IN00a3e1c43bcc0f907535f69c24e45abb"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f4ce2df4-dc88-4381-bf79-67202c88917d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</model>
+        <model_id>ff82e1043bcc0f907535f69c24e45abb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ff82e1043bcc0f907535f69c24e45abb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:33</sys_created_on>
+        <sys_id>00a3e1c43bcc0f907535f69c24e45abb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:33</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=00a3e1c43bcc0f907535f69c24e45abb"/>
+    <sys_hub_action_output action="delete_multiple" query="model=ff82e1043bcc0f907535f69c24e45abb^sys_idNOT IN1ca325c43bcc0f907535f69c24e45a64,40a325c43bcc0f907535f69c24e45a5d"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d4698543-36b1-4103-ba10-04ba0775ddb1,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</model>
+        <model_id>ff82e1043bcc0f907535f69c24e45abb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>1ca325c43bcc0f907535f69c24e45a64</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1ca325c43bcc0f907535f69c24e45a64"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1ca325c43bcc0f907535f69c24e45a64"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=04264666-5f28-4b19-ad87-43b7d2292cc9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</model>
+        <model_id>ff82e1043bcc0f907535f69c24e45abb</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>40a325c43bcc0f907535f69c24e45a5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=40a325c43bcc0f907535f69c24e45a5d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=40a325c43bcc0f907535f69c24e45a5d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ff82e1043bcc0f907535f69c24e45abb^sys_idNOT IN98a325c43bcc0f907535f69c24e45a77"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</action_type_id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>98a325c43bcc0f907535f69c24e45a77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=98a325c43bcc0f907535f69c24e45a77"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_id</element>
+        <help/>
+        <hint/>
+        <label>User ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ff82e1043bcc0f907535f69c24e45abb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:33</sys_created_on>
+        <sys_id>cca3e1c43bcc0f907535f69c24e45ad9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:33</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>94a325c43bcc0f907535f69c24e45a63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:34</sys_created_on>
+        <sys_id>dca325c43bcc0f907535f69c24e45a6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:34</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ff82e1043bcc0f907535f69c24e45abb"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ff82e1043bcc0f907535f69c24e45abb^sys_idNOT IN0aa3e5c43bcc0f907535f69c24e45a4e"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"0aa3e5c43bcc0f907535f69c24e45a4e","name":"plan","plan_signature":null}}</plan>
+        <snapshot>0aa3a5c43bcc0f907535f69c24e45ab5</snapshot>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0aa3e5c43bcc0f907535f69c24e45a4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:42</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>disable_user</internal_name>
+        <label_cache>[{"name":"{{action.user_id}}","label":"action➛User ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Disable User</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Disable User">ff82e1043bcc0f907535f69c24e45abb</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39a3a5c43bcc0f907535f69c24e45a0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:40</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>39a3a5c43bcc0f907535f69c24e45a0e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">f5a3a5c43bcc0f907535f69c24e45aa1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>39a3a5c43bcc0f907535f69c24e45a0e</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b5a3a5c43bcc0f907535f69c24e45ab1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b9a3a5c43bcc0f907535f69c24e45a74</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e^id=39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=39a3a5c43bcc0f907535f69c24e45a0e^sys_idNOT INf5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Disable User">39a3a5c43bcc0f907535f69c24e45a0e</action>
+        <cid>21c53328-1105-4321-a23b-45f16fe99da7</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_id>f5a3a5c43bcc0f907535f69c24e45a22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>31a3a5c43bcc0f907535f69c24e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>3da3a5c43bcc0f907535f69c24e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>patch</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>75a3a5c43bcc0f907535f69c24e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>7da3a5c43bcc0f907535f69c24e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b1a3a5c43bcc0f907535f69c24e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b5a3a5c43bcc0f907535f69c24e45a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>2bf6247e3b3f32907535f69c24e45a6d</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b9a3a5c43bcc0f907535f69c24e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>45</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f5a3a5c43bcc0f907535f69c24e45a68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>{
+  "accountEnabled": false
+}</value>
+        <variable display_value="Request Body[Text]">6c6073f1c71003007b237f48cb97633b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f9a3a5c43bcc0f907535f69c24e45a69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f5a3a5c43bcc0f907535f69c24e45a22</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>fda3a5c43bcc0f907535f69c24e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_f5a3a5c43bcc0f907535f69c24e45a22^id=f5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_element_mapping action="delete_multiple" query="id=f5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>31a3a5c43bcc0f907535f69c24e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>7da3a5c43bcc0f907535f69c24e45a64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f9a3a5c43bcc0f907535f69c24e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>3da3a5c43bcc0f907535f69c24e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b9a3a5c43bcc0f907535f69c24e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b5a3a5c43bcc0f907535f69c24e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f1a3a5c43bcc0f907535f69c24e45a64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b1a3a5c43bcc0f907535f69c24e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f5a3a5c43bcc0f907535f69c24e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>75a3a5c43bcc0f907535f69c24e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>v1.0/users/{{action.user_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>f5a3a5c43bcc0f907535f69c24e45a22</id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>39a3a5c43bcc0f907535f69c24e45a64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f5a3a5c43bcc0f907535f69c24e45a22^sys_idNOT INfda3a5c43bcc0f907535f69c24e45a3f"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=f90410a4-a6bb-4753-9668-0cbb0d05d4f4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">f5a3a5c43bcc0f907535f69c24e45a22</model>
+        <model_id>f5a3a5c43bcc0f907535f69c24e45a22</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_f5a3a5c43bcc0f907535f69c24e45a22</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_id>fda3a5c43bcc0f907535f69c24e45a3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a3a5c43bcc0f907535f69c24e45a22"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_f5a3a5c43bcc0f907535f69c24e45a22</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45a45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:40</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=39a3a5c43bcc0f907535f69c24e45a0e^sys_idNOT INfda3a5c43bcc0f907535f69c24e45a14"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=f4ce2df4-dc88-4381-bf79-67202c88917d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>user_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>User ID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Disable User">39a3a5c43bcc0f907535f69c24e45a0e</model>
+        <model_id>39a3a5c43bcc0f907535f69c24e45a0e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_id>fda3a5c43bcc0f907535f69c24e45a14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fda3a5c43bcc0f907535f69c24e45a14"/>
+    <sys_hub_action_output action="delete_multiple" query="model=39a3a5c43bcc0f907535f69c24e45a0e^sys_idNOT INb9a3a5c43bcc0f907535f69c24e45a74,f5a3a5c43bcc0f907535f69c24e45aa1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=04264666-5f28-4b19-ad87-43b7d2292cc9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Disable User">39a3a5c43bcc0f907535f69c24e45a0e</model>
+        <model_id>39a3a5c43bcc0f907535f69c24e45a0e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>b9a3a5c43bcc0f907535f69c24e45a74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b9a3a5c43bcc0f907535f69c24e45a74"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9a3a5c43bcc0f907535f69c24e45a74"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d4698543-36b1-4103-ba10-04ba0775ddb1,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Disable User">39a3a5c43bcc0f907535f69c24e45a0e</model>
+        <model_id>39a3a5c43bcc0f907535f69c24e45a0e</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f5a3a5c43bcc0f907535f69c24e45aa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f5a3a5c43bcc0f907535f69c24e45aa1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f5a3a5c43bcc0f907535f69c24e45aa1"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=39a3a5c43bcc0f907535f69c24e45a0e^sys_idNOT IN71a3a5c43bcc0f907535f69c24e45ab4"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Disable User">39a3a5c43bcc0f907535f69c24e45a0e</action_type_id>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=71a3a5c43bcc0f907535f69c24e45ab4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>user_id</element>
+        <help/>
+        <hint/>
+        <label>User ID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:40</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:40</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>71a3a5c43bcc0f907535f69c24e45aa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>Adam.Rich@sekisuiaerospace.com</sys_created_by>
+        <sys_created_on>2026-03-30 20:27:41</sys_created_on>
+        <sys_id>f5a3a5c43bcc0f907535f69c24e45aa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Microsoft Graph" source="x_seae_microsoft_g">ff26acba3b3f32907535f69c24e45aa6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Microsoft Graph">ff26acba3b3f32907535f69c24e45aa6</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>Adam.Rich@sekisuiaerospace.com</sys_updated_by>
+        <sys_updated_on>2026-03-30 20:27:41</sys_updated_on>
+        <u_field_explanation/>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_39a3a5c43bcc0f907535f69c24e45a0e"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>ff82e1043bcc0f907535f69c24e45abb</sys_id>
+        <latest_snapshot>39a3a5c43bcc0f907535f69c24e45a0e</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch4-hotfix3b-01-17-2026_02-20-2026_0205.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

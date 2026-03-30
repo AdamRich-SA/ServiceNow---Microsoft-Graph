@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a82caf703be07a107535f69c24e45a53" label="Archive User" max_length="40" name="ar_sys_user" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Microsoft g m365 ID" max_length="255" name="x_seae_microsoft_g_m365_id" type="string_full_utf8"/>
+        <index name="index">
+            <element name="x_seae_microsoft_g_m365_id"/>
+        </index>
+    </element>
+</database>

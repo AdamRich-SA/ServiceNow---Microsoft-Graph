@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,allow_data_replicate=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="808b1d32db2030103a4de1bb4b96190c" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="Usuario" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element label="M365 ID" max_length="255" name="x_seae_microsoft_g_m365_id" type="string_full_utf8"/>
+    </element>
+</database>
